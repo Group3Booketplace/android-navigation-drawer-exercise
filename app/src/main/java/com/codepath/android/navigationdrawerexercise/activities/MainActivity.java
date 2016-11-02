@@ -2,6 +2,7 @@ package com.codepath.android.navigationdrawerexercise.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
 import com.codepath.android.navigationdrawerexercise.R;
 
