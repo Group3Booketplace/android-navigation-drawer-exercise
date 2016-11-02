@@ -41,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+        navigationView.getMenu().getItem(0).setChecked(true);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, new SouthParkFragment())
+                .commit();
+        setTitle(R.string.south_park);
+
     }
 
     private void handleNavItemSelected(MenuItem item) {
